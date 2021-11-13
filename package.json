@@ -1,0 +1,24 @@
+{
+  "name": "node_for_getx_responsive",
+  "version": "1.0.0",
+  "description": "The backend is for flutter application made with getx and responsive design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakhboz-dot/node_for_getx_responsive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakhboz-dot/node_for_getx_responsive/issues"
+  },
+  "homepage": "https://github.com/shakhboz-dot/node_for_getx_responsive#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
