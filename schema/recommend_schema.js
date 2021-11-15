@@ -3,26 +3,25 @@ const Schema = mongoose.Schema;
 
 const RecommendSchema = Schema({
     name: {
-        type: [String],
+        type: String,
         required: true,
         unique : true,
     },
     imageUrl: {
-        type: String,
+        type: [String],
         required: true,
         unique: true,
     },
     newPrice: {
-        type: String,
+        type: Number,
         required: true,
-        unique: true,
     },
     oldPrice: {
-        type: String,
+        type: Number,
         required: true,
-        unique: true,
     },
     count: Number,
+    like: Boolean,
 }, {collection: 'recommendations', timestamps: true});
 
 const Recommendation = mongoose.model('recommendation', RecommendSchema);
